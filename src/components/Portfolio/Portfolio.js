@@ -20,7 +20,7 @@ const Portfolio = (props) => {
                   <div className="portfolio-links">
                     <a target="_blank" rel="noopener noreferrer" href="https://thehousefairy.net/" data-gall="portfolioGallery" className="venobox" title="The House Fairy Website">
                       <i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Mrjacint/jacint-portfolio" title="More Details">
                       <i className="bx bx-link"></i></a>
                   </div>
                 </div>
@@ -30,7 +30,7 @@ const Portfolio = (props) => {
                 <div className="portfolio-wrap">
                   <img src={portfolioImg2} className="img-fluid" alt="" />
                   <div className="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" className="venobox" title="YouTube Clone">
+                    <a href=" " data-gall="portfolioGallery" className="venobox" title="YouTube Clone">
                       <i className="bx bx-plus"></i></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Mrjacint/youtube-clone" title="More Details">
                       <i className="bx bx-link"></i></a>
@@ -42,9 +42,9 @@ const Portfolio = (props) => {
                 <div className="portfolio-wrap">
                   <img src={portfolioImg3} className="img-fluid" alt="" />
                   <div className="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" className="venobox" title="It's should be a React + Redux app">
+                    <a href=" " data-gall="portfolioGallery" className="venobox" title="It's should be a React + Redux app">
                       <i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Mrjacint" title="More Details">
                       <i className="bx bx-link"></i></a>
                   </div>
                 </div>
