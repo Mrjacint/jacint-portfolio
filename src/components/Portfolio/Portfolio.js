@@ -30,7 +30,7 @@ const Portfolio = (props) => {
                 <div className="portfolio-wrap">
                   <img src={portfolioImg2} className="img-fluid" alt="" />
                   <div className="portfolio-links">
-                    <a href=" " data-gall="portfolioGallery" className="venobox" title="YouTube Clone">
+                    <a href="https://clone-52c09.web.app/" data-gall="portfolioGallery" className="venobox" title="YouTube Clone">
                       <i className="bx bx-plus"></i></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Mrjacint/youtube-clone" title="More Details">
                       <i className="bx bx-link"></i></a>
