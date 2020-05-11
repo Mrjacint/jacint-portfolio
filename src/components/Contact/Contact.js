@@ -7,7 +7,7 @@ import Modal from '../Ui/Modal/Modal';
 
 const MAP_URL = `https://www.google.com/maps/embed/v1/place?key=${process.env.REACT_APP_MAP_KEY}&q=Surbiton`;
 const RECAPTCHA_KEY = process.env.REACT_APP_RECAPTCHA_KEY;
-const API_PATH ='http://api.thehousefairy.net';
+const API_PATH ='https://api.thehousefairy.net';
 
 const Contact = (props) => {
 
