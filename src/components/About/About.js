@@ -24,7 +24,7 @@ const About = (props) => {
                 <div className="row">
                   <div className="col-lg-6">
                     <ul>
-                      <li><i className="icofont-rounded-right"></i> <strong>Website:</strong> www.jacint-udvarlaki.com</li>
+                      <li><i className="icofont-rounded-right"></i> <strong>Website:</strong> www.jacint-udvarlaki.co.uk</li>
                       <li><i className="icofont-rounded-right"></i> <strong>Phone:</strong> +44 8696 24801</li>
                       <li><i className="icofont-rounded-right"></i> <strong>City:</strong> Surbiton, UK</li>
                     </ul>
