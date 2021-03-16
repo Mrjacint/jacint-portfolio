@@ -14,7 +14,7 @@ const HomePage = (props) => {
   AOS.init();
 
   const aboutId = useRef();
-  const resumeId = useRef();
+  //   const resumeId = useRef();
   const portfolioId = useRef();
   const contactId = useRef();
   const prevPosition = useRef(null);
@@ -27,20 +27,14 @@ const HomePage = (props) => {
       }
       if (
         aboutId.current !== null &&
-        resumeId.current !== null &&
         portfolioId.current !== null &&
         contactId.current !== null
       ) {
         if (
           scrollTop > aboutId.current.offsetTop - 100 &&
-          scrollTop < resumeId.current.offsetTop - 100
-        ) {
-          getPosition("about");
-        } else if (
-          scrollTop > resumeId.current.offsetTop - 100 &&
           scrollTop < portfolioId.current.offsetTop - 100
         ) {
-          getPosition("resume");
+          getPosition("about");
         } else if (
           scrollTop > portfolioId.current.offsetTop - 100 &&
           scrollTop < contactId.current.offsetTop - 100
@@ -50,6 +44,31 @@ const HomePage = (props) => {
           getPosition("contact");
         }
       }
+      // if (
+      //   aboutId.current !== null &&
+      //   resumeId.current !== null &&
+      //   portfolioId.current !== null &&
+      //   contactId.current !== null
+      // ) {
+      //   if (
+      //     scrollTop > aboutId.current.offsetTop - 100 &&
+      //     scrollTop < resumeId.current.offsetTop - 100
+      //   ) {
+      //     getPosition("about");
+      //   } else if (
+      //     scrollTop > resumeId.current.offsetTop - 100 &&
+      //     scrollTop < portfolioId.current.offsetTop - 100
+      //   ) {
+      //     getPosition("resume");
+      //   } else if (
+      //     scrollTop > portfolioId.current.offsetTop - 100 &&
+      //     scrollTop < contactId.current.offsetTop - 100
+      //   ) {
+      //     getPosition("portfolio");
+      //   } else if (scrollTop > contactId.current.offsetTop - 100) {
+      //     getPosition("contact");
+      //   }
+      // }
     };
     const getPosition = (position) => {
       if (prevPosition.current !== position) {

@@ -68,7 +68,7 @@ const Header = (props) => {
         <nav className="nav-menu">
           <ul>
             <li className={props.elmclass === "home" ? "active" : ""}>
-              <a href="/">
+              <a href="/#hero">
                 <i className="bx bx-home"></i> <span>Home</span>
               </a>
             </li>
@@ -77,10 +77,11 @@ const Header = (props) => {
                 <i className="bx bx-user"></i> <span>About</span>
               </a>
             </li>
-            <li className={props.elmclass === "resume" ? "active" : ""}>
+            {/* <li className={props.elmclass === "resume" ? "active" : ""}>
               <a href="/#resume">
-                {/* <i className="bx bx-file-blank"></i> <span>Resume</span></a></li>
-            <li className={(props.elmclass ==='portfolio') ? "active" : ""}><a href="/#portfolio"> */}
+                <i className="bx bx-file-blank"></i> <span>Resume</span></a></li> */}
+            <li className={props.elmclass === "portfolio" ? "active" : ""}>
+              <a href="/#portfolio">
                 <i className="bx bx-book-content"></i> Portfolio
               </a>
             </li>
