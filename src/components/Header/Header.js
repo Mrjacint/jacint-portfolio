@@ -77,6 +77,11 @@ const Header = (props) => {
                 <i className="bx bx-user"></i> <span>About</span>
               </a>
             </li>
+            <li className={props.elmclass === "skills" ? "active" : ""}>
+              <a href="/#skills">
+                <i className="bx bx-user"></i> <span>Skills</span>
+              </a>
+            </li>
             {/* <li className={props.elmclass === "resume" ? "active" : ""}>
               <a href="/#resume">
                 <i className="bx bx-file-blank"></i> <span>Resume</span></a></li> */}
