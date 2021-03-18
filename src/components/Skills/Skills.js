@@ -13,7 +13,7 @@ const skillsArr = [
   },
   {
     name: "JavaScript",
-    link: "/img/logos/JavaScript.png",
+    link: "/img/logos/Javascript.png",
   },
   {
     name: "React js.",
