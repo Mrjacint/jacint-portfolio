@@ -7,37 +7,37 @@ const portfolios = [
     demo: "https://thehousefairy.net/",
     source: "https://github.com/Mrjacint/jacint-portfolio",
     title: "The House Fairy Website",
-    img: "./img/portfolio/portfolio-1.jpg",
+    img: "./img/portfolio/portfolio-1.avif",
   },
   {
     demo: "https://mrjacint.github.io/paint-clone/",
     source: "https://github.com/Mrjacint/paint-clone",
     title: "Paint Clone",
-    img: "./img/portfolio/portfolio-4.jpg",
+    img: "./img/portfolio/portfolio-4.avif",
   },
   {
     demo: "https://mrjacint.github.io/spock-rock-game/",
     source: "https://github.com/Mrjacint/spock-rock-game",
     title: "Spock Rock Game",
-    img: "./img/portfolio/portfolio-5.jpg",
+    img: "./img/portfolio/portfolio-5.avif",
   },
   {
     demo: "https://mrjacint.github.io/joke-teller/",
     source: "https://github.com/Mrjacint/joke-teller",
     title: "Joke Teller App",
-    img: "./img/portfolio/portfolio-6.jpg",
+    img: "./img/portfolio/portfolio-6.avif",
   },
   {
     demo: "https://mrjacint.github.io/robofriends/",
     source: "https://github.com/Mrjacint/robofriends",
     title: "Robofriends",
-    img: "./img/portfolio/portfolio-7.jpg",
+    img: "./img/portfolio/portfolio-7.avif",
   },
   {
     demo: "",
     source: "https://github.com/Mrjacint/",
     title: "Content coming soon!",
-    img: "./img/portfolio/portfolio-3.jpg",
+    img: "./img/portfolio/portfolio-3.avif",
   },
 ];
 
@@ -50,7 +50,7 @@ const content = portfolios.map((pfolio, index) => {
       key={index}
     >
       <div className="portfolio-wrap">
-        <img src={pfolio.img} className="img-fluid" alt="" />
+        <img src={pfolio.img} className="img-fluid" alt={pfolio.title} />
         <div className="portfolio-links">
           <a
             target="_blank"
