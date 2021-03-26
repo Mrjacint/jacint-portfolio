@@ -1,6 +1,6 @@
 # [Jacint-udvarlaki.co.uk](https://jacint-udvarlaki.co.uk/)
 
-This is my portfolio website.
+This is my portfolio website. [Visit here.](https://jacint-udvarlaki.co.uk/)
 
 # Fetures
 
@@ -29,7 +29,7 @@ The page will reload if you make edits.<br />
 
 ## Technologies
 
-* [React]
-* [React-router]
-* [Bootstrap]
-* [React-typed]
+* [React](https://reactjs.org/)
+* [React-router](https://reactrouter.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [React-typed](https://github.com/ssbeefeater/react-typed)
